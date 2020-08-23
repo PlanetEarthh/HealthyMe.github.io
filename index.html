@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Healthy-Me.com</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width : 1000px)" href="responsive.css">
+  <!-- fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Roboto&amp;family=Ubuntu:wght@300&amp;display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-page">
+      <header>
+        <div class="logo healthy-me" id="nav">
+          <h1>Healthy-Me</h1>
+        </div>
+        <nav>
+          <ul class="v-resp">
+            <a href="./index.html">
+              <li>Home</li>
+            </a>
+            <a href="#services-info">
+              <li>Services</li>
+            </a>
+            <a href="./about/about.html">
+              <li>About Us</li>
+            </a>
+            <!-- <a href="#">
+              <li>Contact</li>
+            </a> -->
+          </ul>
+        </nav>
+        <a href="#" class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </a>
+      </header>
+      <div class="top-content">
+        <h1>HEALTH IS WEALTH</h1>
+        <h3>Build a Beautiful Body</h3>
+        <a href="#tools" class="top-btn">Get Started</a>
+      </div>
+    </div>
+    <main class="mid-content">
+      <div id="services-info">
+        <h1>Our services</h1>
+        <p>We, The Planet Earth Organisation provide you various tools which will help you in your health related queries. We've got a death calculator that calculates your death but but but do not worry...it's only for fun :)</p>
+      </div>
+      <div class="tools" id="tools">
+        <div class="card1">
+          <div class="logo">
+            <img src="./homepage-images/water-png.png" alt="water">
+          </div>
+          <p class="name">Drink Water</p>
+          <p>Tool that calculates how much water should you drink in a day.</p>
+          <a href="./Drink water/index.html" target="_blank" class="card1-Btn">Get Started</a>
+        </div>
+        <div class="card2">
+          <div class="logo">
+            <img src="./homepage-images/bmi-png.png" alt="BMI">
+          </div>
+          <p class="name">BMI Calculator</p>
+          <p>Tool that calulates your BMI percentage according to your height and weight</p>
+          <a href="./BMI calculator/index.html" target="_blank" class="card2-Btn">Get Started</a>
+        </div>
+        <div class="card3">
+          <div class="logo">
+            <img src="./homepage-images/water-png.png" alt="Death Calculator">
+          </div>
+          <p class="name">Death Calculator</p>
+          <p>Just a fun tool that calculates your death year. Must Try!!!</p>
+          <a href="./Death Calulator/Death-clock/index.html" class="card3-Btn">Get Started</a>
+        </div>
+      </div>
+    </main>
+    <main class="portfolio">
+      <div class="heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="tools-images">
+        <div class="card-img">
+          <img src="./homepage-images/drink water.jpg" alt="Drink Water">
+        </div>
+        <div class="card-img">
+          <img src="./homepage-images/bmi.jpg" alt="BMI Calculator">
+        </div>
+        <div class="card-img">
+          <img src="./homepage-images/death calc.jpg" alt="Death Calculator">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Developed by <a href="https://github.com/orgs/PlanetEarthh/dashboard" target="_blank">Planet Earth Organisation</a></p>
+      <p>All Rights Reserved</p>
+      <p>Copyright © 2020</p>
+      <a href="#nav">Back To Top</a>
+    </footer>
+  </div>
+
+
+  <script>
+    const hamBurger = document.getElementsByClassName('hamburger')[0];
+    const navLinks = document.getElementsByClassName('v-resp')[0];
+
+    hamBurger.addEventListener("click", () => {
+      navLinks.classList.toggle('v-resp');
+    })
+  </script>
+</body>
+
+</html>

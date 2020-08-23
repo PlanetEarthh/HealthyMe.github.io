@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="about.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo1.png" alt="HealthyMe">
+            </div>
+            <ul class="navbar">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="./about.html" class="nav-link" id="active">About</a></li>
+                <li><a href="../index.html" class="nav-link">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="organisation">
+        <h1>Our Oragnisation</h1>
+        <img src="PlanetEarth.png" alt="Planet Earth">
+        <h2>Planet Earth </h2>
+        <div class="icons">
+            <a href="https://github.com/PlanetEarthh"><i class="fa fa-github" title="Git Hub" aria-hidden="true"></i></a>
+            <a href="https://mobile.twitter.com/yeshuwahane1" target="_blank"><i class="fa fa-twitter" title="Twitter" aria-hidden="true"></i></a>
+            <a href="mailto:yeshuwahane@gmail.com?subject=Hi%20CyberNerd!"><i class="fa fa-envelope" title="Email" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div id="container">
+        <h1>Our Team</h1>
+        <div class="team">
+            <img src="yash.jpeg" alt="Yash Netankar">
+            <h3>Yash Netankar</h3>
+            <p>Web-designer and Developer</p>
+            <div class="icons">
+                <a href="https://github.com/yash-netankar"><i class="fa fa-github" title="Git Hub" aria-hidden="true"></i></a>
+                <!-- <a href="#"><i class="fa fa-twitter" title="Twitter" aria-hidden="true"></i></a> -->
+                <a href="mailto:netankarysh2002@gmail.com?subject=Hello%20Yash!"><i class="fa fa-envelope" title="Email" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="team">
+            <img src="alien.jpg" alt="Yeshu Wahane">
+            <h3>Yeshu Wahane</h3>
+            <p> Game Developer and Python Programmer</p>
+            <div class="icons">
+                <a href="https://github.com/yeshuwahane"><i class="fa fa-github" title="Git Hub" aria-hidden="true"></i></a>
+                <a href="https://mobile.twitter.com/yeshuwahane1" target="_blank"> <i class="fa fa-twitter" title="Twitter" aria-hidden="true"></i></a>
+                <a href="mailto:yeshuwahane@gmail.com?subject=Hi%20CyberNerd!"><i class="fa fa-envelope" title="Email" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="team">
+            <img src="Abhii.jpg" alt="Abhishek Landge">
+            <h3>Abhishek Landge</h3>
+            <p>Web-designer and UI-UX designer</p>
+            <div class="icons">
+                <a href="https://github.com/Abhishek-Landge"><i class="fa fa-github" title="Git Hub" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/abhishek__4747?s=08" target="_blank"><i class="fa fa-twitter" title="Twitter" aria-hidden="true"></i></a>
+                <a href="mailto:abhisheklandge5757@gmail.com?subject=Hi%20Abhishek!"><i class="fa fa-envelope" title="Email" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> © Planet Earth 2020 | All Rights Reserved </p>
+    </footer>
+    <!-- javascript -->
+    <script>
+        window.addEventListener("scroll", () => {
+            let header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
